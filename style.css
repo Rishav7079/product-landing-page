@@ -1,0 +1,157 @@
+body{
+ background-color: #eeeeee;
+}
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+   /* change to desired color */
+}
+.logo {
+        display: inline-block;
+    vertical-align: top;
+    width: 152px;
+    height: 68px;
+    margin-right: 750px;
+    margin-top: 4px;
+    margin-left:60PX ;    /* if you want it vertically middle of the navbar. */ 
+}
+.navigation-bar > a {
+        display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 107px;
+    height: 178px;
+    line-height: 85px; 
+    text-decoration: none;
+    margin-left: 2px;  /* if you want it vertically middle of the navbar */
+}
+   .container0{
+            height: 200px; 
+            width: 100%;
+             flex-wrap: wrap;
+            display: flex;
+   }
+    .div-1{
+            width: 417px;
+            height: 200px;
+            margin-left: 526px;
+            padding: 3px;
+        }
+input{
+ margin-left: 53px;
+ width:250px;
+ height: 25px;
+ margin-top: 18px;
+} 
+button{
+ margin-left: 112px;
+ margin-top: 15px;
+ padding: 2px;
+   font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+   background-color: yellow;
+}
+.desc{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+.icon
+{
+ display: flex;
+ align-items: center;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  
+ }
+.container{
+ width: 100%;
+ height: 120px;
+  
+ display: flex;
+ margin: 2px 0px 0px 75px;
+ justify-content: center;
+ 
+ 
+}
+
+.item{
+ 
+    margin: 1px 111px 52px 5px;
+    padding: 8px 0px 3px 0px;
+ 
+}
+#video{
+ width:473px;
+ margin-left: 485px;
+}
+.pricing{
+   
+  height: 287px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+ .box{
+   
+  border: 3px solid black;
+  text-align: center;
+  width: 258px;
+      margin: 0px 1px 4px 41px;
+    padding: 0px 5px 0px 1px;
+ }
+ li{
+  list-style-type: none;
+ }
+ .pricing{
+  border: 2px solid red;
+  height: 287px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+ }
+ .box{
+   
+  border: 3px solid black;
+  text-align: center;
+  width: 258px;
+      margin: 0px 1px 4px 41px;
+    padding: 0px 5px 0px 1px;
+ }
+ li{
+  list-style-type: none;
+  margin: 12px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+ }
+ .btn2{
+  margin: 15px 0px 0px 0px;
+ }
+ footer>ul{
+  display: flex;
+  justify-content: flex-end;
+ }
+ footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
